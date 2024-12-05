@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private int territoriosConquistados;
 
     public static GameManager instance;
-
+    //jmhjghjhh
     void Awake()
     {
         instance = this;
