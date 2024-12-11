@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 245867520}
   - component: {fileID: 245867519}
+  - component: {fileID: 245867521}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -152,12 +153,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0267fc266cfafa428c87474e52fc61b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blocoPrefab: {fileID: 6152743036587920620, guid: ce406eb157dd787469da51ecd805263d, type: 3}
   jogador1: {fileID: 4395201951047689409, guid: 6a9324781ef66a64db3ad9aaf19305ad, type: 3}
   jogador2: {fileID: 4395201951047689409, guid: f77648d4be39e4d45aad2df178818ef4, type: 3}
-  linhas: 12
-  colunas: 15
+  linha: 3
+  coluna: 4
   espacamento: 1.1
+  prefabDoBloco: {fileID: 6152743036587920620, guid: ce406eb157dd787469da51ecd805263d, type: 3}
 --- !u!4 &245867520
 Transform:
   m_ObjectHideFlags: 0
@@ -173,6 +174,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &245867521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245867518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8fedd92e0729b46bb99e76b93e1cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jogador1: 0
+  CorDoJogador: 0
+  Velocidade: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
